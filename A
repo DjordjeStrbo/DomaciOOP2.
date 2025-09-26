@@ -1,0 +1,25 @@
+public class A {
+    String b;
+    String x;
+    int v;
+    int c;
+    int z;
+
+    public A(String b, int v, int c, String x, int z) {
+        this.b = b;
+        this.v = v;
+        this.c = c;
+        this.x = x;
+        this.z = z;
+    }
+
+    public A(String b, int v) {
+        this.b = b;
+        this.v = v;
+    }
+
+    public A(String b) {
+        this.b = b;
+    }
+
+}
