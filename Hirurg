@@ -4,7 +4,6 @@ public class Hirurg extends Doktor {
     }
 
     @Override
-    public void leci() {
-        System.out.println(ime + " obavlja hirurške zahvate.");
+    public abstract String leci();
     }
 }
