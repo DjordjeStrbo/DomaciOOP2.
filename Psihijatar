@@ -1,0 +1,9 @@
+public class Psihijatar extends Doktor {
+    public Psihijatar(String ime, int godineIskustva, int brojPacijenata, String specijalizacija, int godinaDiplomiranja) {
+        super(ime, godineIskustva, brojPacijenata, specijalizacija, godinaDiplomiranja);
+    }
+
+    @Override
+    public abstract String leci();
+    }
+}
