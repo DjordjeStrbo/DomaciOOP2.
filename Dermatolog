@@ -1,0 +1,9 @@
+public class Dermatolog extends Doktor {
+    public Dermatolog(String ime, int godineIskustva, int brojPacijenata, String specijalizacija, int godinaDiplomiranja) {
+        super(ime, godineIskustva, brojPacijenata, specijalizacija, godinaDiplomiranja);
+    }
+
+    @Override
+    public abstract String leci();
+    }
+}
