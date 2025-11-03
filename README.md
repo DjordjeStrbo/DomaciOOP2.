@@ -22,6 +22,6 @@ public abstract class Doktor {
         this.ime = ime;
     }
 
-    // Apstraktna metoda koju podklase moraju da implementiraju
+    
     public abstract void leci();
 }
