@@ -1,0 +1,10 @@
+public class Hirurg extends Doktor {
+    public Hirurg(String ime, int godineIskustva, int brojPacijenata, String specijalizacija, int godinaDiplomiranja) {
+        super(ime, godineIskustva, brojPacijenata, specijalizacija, godinaDiplomiranja);
+    }
+
+    @Override
+    public void leci() {
+        System.out.println(ime + " obavlja hirurške zahvate.");
+    }
+}
